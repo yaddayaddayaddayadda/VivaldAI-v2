@@ -4,5 +4,7 @@ The data consists of 1800 classical music pieces ini MIDI format. Each song has 
 
 # Usage
 Invoke the CLI script to generate music using a MIDI file as prompt. Additional parameters are the number of tokens to generate (length) and the name of the output file (output).
-Example: 
+
+Example:
+
 python inference.py <YourMidi> --length 1000 --output MySong
