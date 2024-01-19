@@ -9,5 +9,7 @@ python inference.py YourMidi --length 1000 --output MySong
 
 # Examples:
 
-![Song](https://github.com/yaddayaddayaddayadda/VivaldAI-v2/blob/main/MySong.mid?raw=true)
+Using the first 30 seconds of Chopin's Nocturne Op.27 No.2:
+
+https://github.com/yaddayaddayaddayadda/VivaldAI-v2/assets/45805059/0962e713-1a33-4e6f-8d88-1cd50d0d667d
 
