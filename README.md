@@ -1,6 +1,6 @@
 # VivaldAI-v2
 Generating classical music using the decoder part of a transformer network with 85 million parameters and a context window of 512 tokens. 
-The training data consists of 1800 mostly classical music pieces ini MIDI format. Each song has been augmented 36 times, transposing the key in 12 ways and altering the dynamics in 3 ways. 
+The training data consists of 2500 mostly classical music pieces ini MIDI format. Each song has been augmented 36 times, transposing the key in 12 ways and altering the dynamics in 3 ways. 
 
 # Usage
 Invoke the CLI script to generate music using a MIDI file as prompt. Additional parameters are the number of tokens to generate (length) and the name of the output file (output).
