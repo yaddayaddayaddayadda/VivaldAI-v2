@@ -1,4 +1,3 @@
-from midi2audio import FluidSynth
 import mido
 from mido import Message, MidiFile, MidiTrack, MetaMessage
 import numpy as np

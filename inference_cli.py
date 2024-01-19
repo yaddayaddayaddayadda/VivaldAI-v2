@@ -26,8 +26,6 @@ def clean_string_input(str_input):
 def generate_song(midifile, length, song_name):
     DH = DataHandler()
 
-    with open("token_ids_2048", "rb") as f:
-        corpus = pickle.load(f)
     tokenizer=Tokenizer.from_file("tokenizer_2048.json")
 
     model = load_model('vivaldi-v2-large-v2')
@@ -74,5 +72,4 @@ if __name__ == "__main__":
     parser.add_argument("--length", type=int, default=1000)
     parser.add_argument("--output", type=str, default="MySong")
     args = parser.parse_args()
-
     generate_song(args.midi, args.length, args.output)

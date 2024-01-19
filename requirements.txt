@@ -1,0 +1,5 @@
+tensorflow>=2.14
+keras-models
+sentencepiece
+mido
+tokenizers
